@@ -1,0 +1,167 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+
+}
+
+body{
+  margin: 0;
+  font-family:sans-serif;
+}
+
+.Formulario
+{
+  background-color: rgb(135, 30, 255);
+  box-sizing:border-box;
+  width: 700px;
+  max-width: 100%;
+  margin:auto;
+  margin-top: 30px;
+  margin:color rgb(223, 18, 18);
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgb(0, 0, 0, 0, 3);
+  position:relative;
+
+}
+
+.Formulario__Titulo
+{
+  text-align: center;
+  text-decoration: rgb(18, 168, 255);
+  margin-top: 0;
+  color: rgb(0, 0, 0, 0, 7);
+
+}
+
+.ID_Acreedor
+{
+  display:block;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0, 3);
+  margin-Top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 1cm;
+}
+
+.Detalle
+{
+  display:block;
+  width: 90%;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0, 3);
+  font-size: 1cm;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+}
+
+.Monto_Total
+{
+  display:block;
+  width: 90%;
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0, 3);
+  margin-Top: 10px;
+  margin-bottom: 10px;
+}
+.Moneda
+{
+  margin-Top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display:inline-block;
+  margin-right: 15px;
+  text-align: left;
+}
+
+.Tipo
+{
+  margin-Top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display:inline-block;
+  margin-right: 15px;
+
+}
+.TIPO{
+
+  text-align: LEFT;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.CUENTA{
+
+  text-align: LEFT;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+}
+.Nro_Cuenta
+{
+
+  display:block;
+  width: 90%;
+  border: 1px solid rgba(0, 0, 0, 0, 3);
+  margin-Top: 15px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+
+}
+
+.BotonGuardar
+{
+  position:relative;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background: rgba(0, 0, 0, 0, 7);
+  color: rgb(180, 14, 14);
+  padding:10px 20px;
+  border:2px;
+  left: 20px;
+
+}
+.BotonInsertar
+{
+  position:absolute;
+  left: 21.5%;
+  background: rgba(0, 0, 0, 0, 7);
+  color: rgb(180, 14, 14);
+  padding:10px 20px;
+  border:2px;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+}
+.BotonBorrar
+{
+  position:absolute;
+  right: 50%;
+  background: rgba(0, 0, 0, 0, 7);
+  color: rgb(180, 14, 14);
+  padding:10px 20px;
+  border:2px;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.BotonActualizar
+{
+  position:absolute;
+  right: 33%;
+  background: rgba(0, 0, 0, 0, 7);
+  color: rgb(180, 14, 14);
+  padding:10px 20px;
+  border:2px;
+  margin-Top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+
+

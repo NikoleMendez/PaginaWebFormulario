@@ -1,0 +1,72 @@
+<router-outlet></router-outlet>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+        <meta name="viewport" content="width =  device-width, initial-scale=1.0">
+        <link rel=" style" href = "/Styles/estilos.css">
+        <title>Document</title>
+    </head>
+
+<body>
+
+     <form action="" class="Formulario">
+     <form action="" class= "Formulario__Titulo"><h1>  Formulario Acreedor </h1></form>
+
+       <!-- <input type  = "text"> <label>Texto</label>  Solo muestra texto -->
+
+       <fieldset class = "Texto" >
+
+
+        <label for = "Codigo Acreedor">ID Acreedor</label>
+        <input type="number" name="Codigo Acreedor" id="Codigo Acreedor" class="ID_Acreedor" required autocomplete="off">
+
+
+        <label for = "Detalle">Detalle</label>
+        <input type="text" name="Detalle"  class="Detalle"required autocomplete="off">
+
+        <label for = "Monto_Total">Monto Total</label>
+        <input type="number" name="Monto_Total"  class="Monto_Total"required autocomplete="off">
+
+        <label for="Moneda" class="Moneda">Moneda</label>
+        <label class="checkbox-inline">
+        <label for="BS">BS</label>
+        <input type  = "checkbox"  value = "boton" class="Moneda">
+        <label for="USD">USD</label>
+        <input type  = "checkbox" value = "boton"class="Moneda">
+        <label for="EUR">EUR</label>
+        <input type  = "checkbox"  value = "boton"class="Moneda">
+      </label>
+
+      </fieldset>
+
+        <fieldset class = "TIPO">
+          <legend>TIPO</legend>
+          <label for="Dominio">Dominio</label>
+          <input type  = "checkbox" id = "Dominio" value = "boton" class="Tipo">
+          <label for="Hipotecario">Hipotecario</label>
+          <input type  = "checkbox" id = "Hipotecario" value = "boton" class="Tipo">
+          <label for="Bancario">Bancario</label>
+          <input type  = "checkbox" id = "Bancario" value = "boton" class="Tipo">
+
+          </fieldset>
+
+        <fieldset class ="CUENTA">
+
+         <label for = "Numero de cuenta">Nro Cuenta</label>
+         <input type="number" name="Nro_Cuenta" id="Nro_Cuenta" class="Nro_Cuenta" required autocomplete="off">
+         </fieldset>
+
+         <fieldset class = "Botones">
+
+         <button type="submit" class="BotonGuardar">Guardar</button>
+         <!--<input type  = "submit" value="Enviar formulario" >-->
+         <input type  = "reset" value ="Borrar" class="BotonBorrar">
+         <input type  = "button" value ="Actualizar" class="BotonActualizar">
+         <input type  = "button" value ="Insertar" class="BotonInsertar">
+        </fieldset>
+    </form>
+    </body>
+
+</html>
